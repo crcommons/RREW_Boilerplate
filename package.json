@@ -1,0 +1,51 @@
+{
+  "name": "gloucesterevents",
+  "version": "1.0.0",
+  "description": "Web App to manage/display events for the  City of Gloucester",
+  "main": "/server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "webpack --progress --colors",
+    "test": "echo '\nCOMING SOON!!!\n'",
+    "lint": "node_modules/.bin/eslint .",
+    "devstart": "nodemon server/server.js",
+    "devbuild": "webpack --progress --colors --watch"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "leaflet-google-places-autocomplete": "0.0.8",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.7.1",
+    "styled-components": "^2.1.0",
+    "webpack": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.0",
+    "eslint-plugin-react": "^7.1.0",
+    "style-loader": "^0.18.2"
+  },
+  "author": "Ross Topol",
+  "license": "ISC",
+  "repository" :
+    {
+      "type" : "git",
+      "url" : "git@bitbucket.org:AppGeo/gloucesterma_2016-1463.events.git"
+    }
+}
