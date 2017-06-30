@@ -6,7 +6,7 @@ module.exports = {
   entry: './index.jsx',
 
   output: {
-    path: `${__dirname}/client/public`,
+    path: `${__dirname}/client/public/eventsAdmin`,
     filename: 'bundle.js',
   },
 
@@ -27,7 +27,7 @@ module.exports = {
   },
   resolve: {
     modules: [
-      path.join(__dirname, 'node_modules'),
+      `${__dirname}/node_modules`,
     ],
     extensions: ['.js', '.jsx'],
   },

@@ -9,9 +9,11 @@ import EventsDashboard from './scenes/EventsDashboard';
 const App = () => (
   <Provider store={store}>
     <Router>
-      <Route path="/" component={EventsDashboard} />
-      <Route path="/create" component={EventPage} />
-      <Route path="/event/:id" component={EventPage} />
+      <div>
+        <Route path="/" component={EventsDashboard} />
+        <Route path="/create" component={EventPage} />
+        <Route path="/event/:id" component={EventPage} />
+      </div>
     </Router>
   </Provider>
 );

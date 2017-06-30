@@ -1,4 +1,4 @@
-const { Event } = require('../models');
+// const { Event } = require('../models');
 
 module.exports = {
   getEvent(req, res) {
