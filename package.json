@@ -46,6 +46,6 @@
   "repository" :
     {
       "type" : "git",
-      "url" : "git@bitbucket.org:AppGeo/gloucesterma_2016-1463.events.git"
+      "url" : "https://bitbucket.org/AppGeo/gloucesterma_2016-1463.events.git"
     }
 }
