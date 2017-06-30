@@ -28,7 +28,7 @@ This is just some boilerplate to make getting up and running a little quicker.
   Start build process and watch with `npm run devbuild`
   Start the development server with `npm run devstart`
  
- TO DO FILL IN STUFF ABOUT:
+ **TO DO:** FILL IN STUFF ABOUT:
 
   * PostgreSQL
   * API Keys (and creating .env file)
